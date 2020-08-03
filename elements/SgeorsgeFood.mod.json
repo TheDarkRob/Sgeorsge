@@ -1,0 +1,11 @@
+{
+  "_fv": 10,
+  "_type": "tab",
+  "definition": {
+    "name": "Sgeorsge's Food",
+    "icon": {
+      "value": "CUSTOM:Rice"
+    },
+    "showSearch": false
+  }
+}

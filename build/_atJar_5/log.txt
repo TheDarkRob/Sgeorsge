@@ -1,5 +1,5 @@
-Args: "--inJar", "C:\Users\andre\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0\forge-1.15.2-31.2.0-injected.jar", "--outJar", "C:\Users\andre\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1\forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1.jar", "--logFile", "accesstransform.log", "--atFile", "C:\Users\andre\MCreatorWorkspaces\george_addons\build\_atJar_5\parent_at.cfg"
-Classpath: C:\Users\andre\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\1.0.5\accesstransformers-1.0.5-fatjar.jar
-WorkDir: C:\Users\andre\MCreatorWorkspaces\george_addons\build\_atJar_5
+Args: "--inJar", "C:\Users\Roberto\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0\forge-1.15.2-31.2.0-injected.jar", "--outJar", "C:\Users\Roberto\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1\forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1.jar", "--logFile", "accesstransform.log", "--atFile", "C:\Users\Roberto\Desktop\Sgeorsge\build\_atJar_5\parent_at.cfg"
+Classpath: C:\Users\Roberto\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\1.0.5\accesstransformers-1.0.5-fatjar.jar
+WorkDir: C:\Users\Roberto\Desktop\Sgeorsge\build\_atJar_5
 Main: net.minecraftforge.accesstransformer.TransformerProcessor
 ====================================

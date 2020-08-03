@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "sgeorsge:blocks/rice1",
+    "particle": "sgeorsge:blocks/rice1"
+  }
+}

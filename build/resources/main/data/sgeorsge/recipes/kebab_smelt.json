@@ -1,0 +1,12 @@
+{
+  "group": "sgeorsge",
+  "type": "minecraft:campfire_cooking",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "sgeorsge:raw_kebab"
+  },
+  "result": {
+    "item": "sgeorsge:kebab"
+  }
+}

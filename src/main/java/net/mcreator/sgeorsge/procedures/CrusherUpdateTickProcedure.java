@@ -3,7 +3,7 @@ package net.mcreator.sgeorsge.procedures;
 import net.minecraftforge.items.IItemHandlerModifiable;
 import net.minecraftforge.items.CapabilityItemHandler;
 
-import net.minecraft.world.World;
+import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.item.Items;
@@ -22,6 +22,7 @@ import net.mcreator.sgeorsge.SgeorsgeModElements;
 
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.Map;
 
 @SgeorsgeModElements.ModElement.Tag
 public class CrusherUpdateTickProcedure extends SgeorsgeModElements.ModElement {
@@ -29,7 +30,7 @@ public class CrusherUpdateTickProcedure extends SgeorsgeModElements.ModElement {
 		super(instance, 29);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
 			System.err.println("Failed to load dependency x for procedure CrusherUpdateTick!");
 			return;
@@ -46,10 +47,10 @@ public class CrusherUpdateTickProcedure extends SgeorsgeModElements.ModElement {
 			System.err.println("Failed to load dependency world for procedure CrusherUpdateTick!");
 			return;
 		}
-		int x = (int) dependencies.get("x");
-		int y = (int) dependencies.get("y");
-		int z = (int) dependencies.get("z");
-		World world = (World) dependencies.get("world");
+		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
+		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
+		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
+		IWorld world = (IWorld) dependencies.get("world");
 		if ((((new Object() {
 			public int getAmount(BlockPos pos, int sltid) {
 				AtomicInteger _retval = new AtomicInteger(0);

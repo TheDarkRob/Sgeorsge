@@ -15,6 +15,7 @@ import net.minecraftforge.common.capabilities.Capability;
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
+import net.minecraft.world.IWorldReader;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
@@ -56,7 +57,9 @@ import javax.annotation.Nullable;
 
 import java.util.stream.IntStream;
 import java.util.Random;
+import java.util.Map;
 import java.util.List;
+import java.util.HashMap;
 import java.util.Collections;
 
 import io.netty.buffer.Unpooled;
@@ -90,6 +93,11 @@ public class CrusherBlock extends SgeorsgeModElements.ModElement {
 		}
 
 		@Override
+		public int tickRate(IWorldReader world) {
+			return 20;
+		}
+
+		@Override
 		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
@@ -113,7 +121,7 @@ public class CrusherBlock extends SgeorsgeModElements.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
