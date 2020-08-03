@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sgeorsge:blocks/crushe_side",
+    "up": "sgeorsge:blocks/crushe_side",
+    "north": "sgeorsge:blocks/crusher_front1",
+    "east": "sgeorsge:blocks/crushe_side",
+    "south": "sgeorsge:blocks/crushe_side",
+    "west": "sgeorsge:blocks/crushe_side",
+    "particle": "sgeorsge:blocks/crushe_side"
+  }
+}

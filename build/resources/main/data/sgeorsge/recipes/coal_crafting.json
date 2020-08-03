@@ -1,0 +1,26 @@
+{
+  "group": "sgeorsge",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "sgeorsge:coal_nugget"
+    },
+    "1": {
+      "item": "sgeorsge:coal_nugget"
+    },
+    "2": {
+      "item": "sgeorsge:coal_nugget"
+    },
+    "3": {
+      "item": "sgeorsge:coal_nugget"
+    }
+  },
+  "result": {
+    "item": "minecraft:coal",
+    "count": 1
+  }
+}

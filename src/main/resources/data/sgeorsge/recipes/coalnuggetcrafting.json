@@ -1,0 +1,13 @@
+{
+  "group": "sgeorsge",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "minecraft:coals"
+    }
+  ],
+  "result": {
+    "item": "sgeorsge:coal_nugget",
+    "count": 4
+  }
+}

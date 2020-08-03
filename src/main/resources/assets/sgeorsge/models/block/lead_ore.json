@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sgeorsge:blocks/lead_ore",
+    "up": "sgeorsge:blocks/lead_ore",
+    "north": "sgeorsge:blocks/lead_ore",
+    "east": "sgeorsge:blocks/lead_ore",
+    "south": "sgeorsge:blocks/lead_ore",
+    "west": "sgeorsge:blocks/lead_ore",
+    "particle": "sgeorsge:blocks/lead_ore"
+  }
+}
