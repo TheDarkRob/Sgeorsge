@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sgeorsge:blocks/blackstone_top",
+    "up": "sgeorsge:blocks/blackstone_top",
+    "north": "sgeorsge:blocks/blackstone",
+    "east": "sgeorsge:blocks/blackstone",
+    "south": "sgeorsge:blocks/blackstone",
+    "west": "sgeorsge:blocks/blackstone",
+    "particle": "sgeorsge:blocks/blackstone_top"
+  }
+}

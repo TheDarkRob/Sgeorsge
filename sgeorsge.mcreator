@@ -414,42 +414,208 @@
           }
         ]
       }
+    },
+    {
+      "name": "SgeorsgeNether",
+      "type": "tab",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sgeorsge_nether"
+    },
+    {
+      "name": "AncientDebris",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ancient_debris"
+    },
+    {
+      "name": "Basalt",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "basalt"
+    },
+    {
+      "name": "PolishedBasalt",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_basalt"
+    },
+    {
+      "name": "Blackstone",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blackstone"
+    },
+    {
+      "name": "PolishedBlackstoneBricks",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_blackstone_bricks"
+    },
+    {
+      "name": "PolishedBlackstone",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_blackstone"
+    },
+    {
+      "name": "GildedBlackstone",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gilded_blackstone"
+    },
+    {
+      "name": "CrackedPolishedBlackstoneBricks",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cracked_polished_blackstone_bricks"
+    },
+    {
+      "name": "ChiseledPolishedBlackstone",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chiseled_polished_blackstone"
+    },
+    {
+      "name": "NetheriteBlock",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_block"
+    },
+    {
+      "name": "CryingObsidian",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crying_obsidian"
+    },
+    {
+      "name": "NetherGoldOreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_gold_ore_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetherGoldOre",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_gold_ore"
+    },
+    {
+      "name": "Netherite",
+      "type": "armor",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.sgeorsge.emerald_dust": "Emerald Dust",
+      "block.sgeorsge.blackstone": "Blackstone",
       "itemGroup.tabsgeorsge_alchemy": "Sgeorsge\u0027s Alchemy",
-      "item.sgeorsge.kebab": "Kebab",
+      "item.sgeorsge.netherite_helmet": "Netherite Helmet",
       "item.sgeorsge.rice_seed": "Rice Seed",
       "item.george_addons.crushing_gear": "Crushing Gear",
-      "item.sgeorsge.rice": "Rice",
-      "item.sgeorsge.diamond_dust": "Diamond Dust",
-      "item.sgeorsge.crushing_gear": "Crushing Gear",
       "block.sgeorsge.rice_plant": "Rice Plant",
       "item.george_addons.energy_catalyst": "Energy Catalyst",
+      "block.sgeorsge.crying_obsidian": "Crying Obsidian",
       "item.sgeorsge.raw_kebab": "Raw Kebab",
-      "item.sgeorsge.gold_dust": "Gold Dust",
       "item.sgeorsge.iron_dust": "Iron Dust",
-      "item.sgeorsge.lead_ingot": "Lead Ingot",
       "block.sgeorsge.lead_ore": "Lead Ore",
-      "itemGroup.tabsgeorsge_duplicatio": "Sgeorsge\u0027s Duplicatio",
       "block.sgeorsge.crusher": "Crusher",
-      "itemGroup.tabsgeorsge_food": "Sgeorsge\u0027s Food",
+      "block.sgeorsge.nether_gold_ore": "Nether Gold Ore",
       "block.sgeorsge_duplicatio.lead_ore": "Lead Ore",
-      "item.sgeorsge.lapis_lazuli_dust": "Lapis Lazuli Dust",
       "item.sgeorsge.energy_catalyst": "Energy Catalyst",
       "item.sgeorsge.coal_dust": "Coal Dust",
-      "item.george_addons.lead_ingot": "Lead Ingot",
       "block.george_addons.lead_ore": "Lead Ore",
-      "item.sgeorsge_duplicatio.lead_ingot": "Lead Ingot",
-      "item.sgeorsge_duplicatio.energy_catalyst": "Energy Catalyst",
+      "item.sgeorsge.netherite_boots": "Netherite Boots",
       "item.sgeorsge.quartz_dust": "Quartz Dust",
       "item.sgeorsge.coal_nugget": "Coal Nugget",
       "item.sgeorsge_duplicatio.crushing_gear": "Crushing Gear",
       "block.sgeorsge_duplicatio.crusher": "Crusher",
+      "block.sgeorsge.polished_blackstone_bricks": "Polished Blackstone Bricks",
+      "block.sgeorsge.chiseled_polished_blackstone": "Chiseled Polished Blackstone",
+      "item.sgeorsge.emerald_dust": "Emerald Dust",
+      "item.sgeorsge.kebab": "Kebab",
+      "block.sgeorsge.polished_blackstone": "Polished Blackstone",
+      "itemGroup.tabsgeorsge_nether": "Sgeorsge\u0027s Nether",
+      "item.sgeorsge.rice": "Rice",
+      "item.sgeorsge.netherite_leggings": "Netherite Leggings",
+      "item.sgeorsge.diamond_dust": "Diamond Dust",
+      "block.sgeorsge.basalt": "Basalt",
+      "item.sgeorsge.crushing_gear": "Crushing Gear",
+      "block.sgeorsge.gilded_blackstone": "Gilded Blackstone",
+      "block.sgeorsge.cracked_polished_blackstone_bricks": "Cracked Polished Blackstone Bricks",
+      "item.sgeorsge.gold_dust": "Gold Dust",
+      "item.sgeorsge.lead_ingot": "Lead Ingot",
+      "itemGroup.tabsgeorsge_duplicatio": "Sgeorsge\u0027s Duplicatio",
+      "block.sgeorsge.ancient_debris": "Ancient Debris",
+      "itemGroup.tabsgeorsge_food": "Sgeorsge\u0027s Food",
+      "block.sgeorsge.polished_basalt": "Polished Basalt",
+      "item.sgeorsge.netherite_chestplate": "Netherite Body",
+      "item.sgeorsge.lapis_lazuli_dust": "Lapis Lazuli Dust",
+      "item.george_addons.lead_ingot": "Lead Ingot",
+      "block.sgeorsge.netherite_block": "Netherite Block",
+      "item.sgeorsge_duplicatio.energy_catalyst": "Energy Catalyst",
+      "item.sgeorsge_duplicatio.lead_ingot": "Lead Ingot",
       "block.george_addons.crusher": "Crusher"
     }
   },

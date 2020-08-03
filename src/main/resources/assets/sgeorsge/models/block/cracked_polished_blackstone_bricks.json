@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "sgeorsge:blocks/cracked_polished_blackstone_bricks",
+    "particle": "sgeorsge:blocks/cracked_polished_blackstone_bricks"
+  }
+}
